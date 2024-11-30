@@ -1,0 +1,57 @@
+Bài Tập 2: Kiểm Thử Tự Động với Selenium
+Mục Tiêu:
+Phát triển các tập lệnh kiểm thử tự động sử dụng Selenium để kiểm thử các chức năng của ứng dụng web, chạy các tập lệnh này và tạo báo cáo kiểm thử chi tiết.
+Yêu Cầu Chi Tiết:
+Cài Đặt Môi Trường:
+Ngôn ngữ lập trình: Chọn một ngôn ngữ lập trình được Selenium hỗ trợ (ví dụ: Java, Python, C#).
+IDE: Cài đặt một môi trường phát triển tích hợp (IDE) như Eclipse, IntelliJ IDEA, hoặc PyCharm.
+Selenium WebDriver: Cài đặt và cấu hình Selenium WebDriver.
+Trình duyệt: Chọn một trình duyệt (Chrome, Firefox, v.v.) và đảm bảo rằng WebDriver phù hợp đã được cài đặt cho nó.
+Thư viện phụ thuộc: Quản lý các thư viện phụ thuộc của dự án bằng các công cụ như Maven (cho Java) hoặc pip (cho Python).
+Hệ thống quản lý phiên bản: Sử dụng một hệ thống quản lý phiên bản (ví dụ: Git) để quản lý mã nguồn.
+Phát Triển Tập Lệnh Kiểm Thử:
+Xác định ít nhất 7 chức năng chính để tự động hóa, như:
+Đăng nhập/Đăng xuất: Tự động hóa quá trình đăng nhập và đăng xuất, bao gồm xác thực thành công hay thất bại.
+Gửi Biểu Mẫu: Tự động hóa việc điền và gửi biểu mẫu, kiểm tra xử lý đầu vào đúng.
+Điều Hướng: Tự động hóa việc điều hướng giữa các trang khác nhau của ứng dụng.
+Xác Thực Dữ Liệu: Tự động hóa xác thực dữ liệu trên bảng điều khiển hoặc các thành phần tương tự.
+Thêm vào giỏ hàng, thanh toán
+Tìm Kiếm: Tự động hóa việc kiểm thử chức năng tìm kiếm nếu có.
+Thiết Kế Đáp Ứng: Kiểm tra ứng dụng có điều chỉnh đúng cho các kích thước màn hình khác nhau không (không bắt buộc nhưng nên thực hiện).
+Thêm các biểu thức khẳng định (assertion) tại các điểm quan trọng để xác thực kết quả mong đợi.
+Thực Thi Kiểm Thử:
+Chạy các tập lệnh Selenium đã phát triển:
+Chạy theo lô: Thực thi tất cả các tập lệnh cùng nhau trong một lô để kiểm tra chức năng từ đầu đến cuối.
+Chạy riêng lẻ: Thực thi từng tập lệnh riêng lẻ để gỡ lỗi và xác thực.
+Ghi nhận kết quả của mỗi lần thực thi:
+Trạng thái Pass/Fail: Chỉ rõ rõ ràng mỗi kiểm thử đã đạt hay không.
+Nhật ký lỗi: Ghi lại và phân tích bất kỳ nhật ký lỗi nào được tạo ra trong quá trình thực thi.
+Kiểm thử Đa Trình Duyệt: Tùy chọn, chạy các tập lệnh trên ít nhất hai trình duyệt khác nhau để kiểm tra vấn đề tương thích.
+Tạo Báo Cáo:
+Báo cáo cần bao gồm:
+Tóm tắt Test Case: Tổng quan về tất cả các kiểm thử đã thực thi.
+Thống kê Pass/Fail: Số lượng kiểm thử thành công và thất bại.
+Thời gian thực thi: Tổng thời gian cho từng kiểm thử và toàn bộ tập lệnh.
+Chi tiết lỗi: Thông tin chi tiết về bất kỳ lỗi nào gặp phải, bao gồm dấu vết lỗi (stack trace) khi áp dụng.
+Nộp báo cáo theo định dạng chuyên nghiệp (PDF).
+Rà Soát Mã Nguồn:
+Nộp các tập lệnh Selenium lên một kho lưu trữ mã nguồn (ví dụ: GitHub, Bitbucket).
+Tài Liệu:
+Cung cấp các ghi chú chi tiết trong mã nguồn, giải thích mục đích của mỗi hàm và các phần quan trọng.
+Tạo một tệp readme hướng dẫn cách cài đặt môi trường và chạy các tập lệnh.
+Các Tài Liệu Nộp:
+Tập Lệnh Selenium: Nộp tất cả các tập lệnh đã phát triển trong một tệp nén hoặc qua liên kết quản lý phiên bản.
+Báo Cáo Kiểm Thử Tự Động: Nộp báo cáo kết quả kiểm thử tự động chi tiết.
+Tài Liệu: Nộp tệp readme và ghi chú trong mã.
+Tiêu Chí Chấm Điểm:
+Phát Triển Tập Lệnh: Chức năng, tính module, và tuân thủ các phương pháp hay nhất (40%).
+Thực Thi và Báo Cáo Kiểm Thử: Độ chính xác và hoàn chỉnh của quá trình thực thi kiểm thử và báo cáo được tạo (30%).
+Tài Liệu: Độ rõ ràng và hoàn chỉnh của ghi chú trong mã và tệp readme (30%).
+Ứng Dụng Web cho Kiểm Thử (Website tùy chọn):
+Sử dụng ứng dụng thương mại điện tử OpenCart hoặc các ứng dụng khác để tạo và thực thi các tập lệnh kiểm thử tự động của bạn. OpenCart cung cấp một loạt chức năng lý tưởng cho kiểm thử tự động.
+Website: OpenCart Demo
+Các khu vực cần tập trung:
+Tự động hóa đăng nhập/đăng xuất, gửi biểu mẫu, điều hướng và các chức năng khác đã xác định ở phần Phát Triển Tập Lệnh Kiểm Thử.
+Đảm bảo rằng các tập lệnh tự động có thể xử lý các kịch bản khác nhau và xác thực các kết quả tích cực và tiêu cực.
+
+
